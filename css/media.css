@@ -1,0 +1,402 @@
+@media screen and (max-width: 1210px) {
+  .agency__title h1 {
+    font-size: clamp(5.25rem, -3.2016rem + 30.245vw, 13.81125rem);
+    line-height: clamp(6.25rem, -16.4063rem + 72.5vw, 24.375rem);
+  }
+  .agency__title h2 {
+    font-size: clamp(1.3625rem, -0.3906rem + 6.25vw, 3.125rem);
+  }
+  .agency__info p {
+    font-size: clamp(1.25rem, 0.4688rem + 2.5vw, 1.875rem);
+  }
+  h2 {
+    font-size: clamp(5rem, -0.4688rem + 17.5vw, 9.375rem);
+    line-height: clamp(5rem, -0.4688rem + 17.5vw, 9.375rem);
+  }
+  .mission__body h3 {
+    font-size: clamp(1.125rem, 0.5781rem + 1.75vw, 1.5625rem);
+  }
+  .agency__office-left p,
+  .agency__office-right p {
+    font-size: clamp(1.125rem, 0.1875rem + 3vw, 1.875rem);
+  }
+  .need__cards {
+    justify-content: center;
+  }
+  .need__card {
+    background-size: contain;
+  }
+  .mission__main {
+    flex-wrap: wrap;
+  }
+  .mission__right {
+    margin-top: 30px;
+  }
+  .services__cards {
+    justify-content: center;
+  }
+  .mission__main {
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .work__stage-body {
+    align-items: center;
+    display: flex;
+  }
+  .work__stage-body p {
+    max-width: 200px;
+  }
+  .work__stage-body span {
+    margin-right: 15px;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    background-color: #F8DCDC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 100%;
+    max-width: 34px;
+    width: 100%;
+    height: 34px;
+  }
+  .work__stage  {
+    background-image: none;
+  }
+  .work__stage-top, .work__stage-middle, .work__stage-bottom {
+    margin-right: 0;
+    max-width: 100%;
+  }
+  .work__stage-top {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 900px) {
+  .work__stage-body p {
+    max-width: 100%;
+  }
+  .work__stage-top, .work__stage-middle, .work__stage-bottom {
+     flex-direction: column;
+     margin-top: 0;
+     align-items: flex-start;
+  }
+  .work__stage-top p, .work__stage-middle p, .work__stage-bottom p {
+    text-align: left;
+    max-width: 100%;
+  } 
+  .work__stage-body {
+    margin-top: 29px;
+  }
+  
+ 
+  .more-mobile {
+    max-width: 340px;
+    width: 100%;
+  }
+  .nav__header ul li {
+    margin-right: 0;
+  }
+  .header__body::before {
+    content: "";
+    position: absolute;
+    background-color: #fcf5f5;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    left: 0;
+  }
+  .nav__header ul {
+    max-height: 400px;
+    overflow-y: scroll;
+  }
+  
+  .agency__images {
+    margin-top: 20px;
+    max-width: 327px;
+    width: 100%;
+  }
+  .comments__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .mainkeys__cards-tab-2 {
+    grid-template-columns: 1fr;
+  }
+  .mainkeys__cards-tab-1 {
+    grid-template-columns: 1fr;
+  }
+  .comments__cards-right {
+    border-top-right-radius: 0;
+  }
+  .agency {
+    margin-top: 0;
+  }
+  .block__title {
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .request__cards {
+    width: 660px;
+    overflow-x: auto;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .request__card {
+    transition: ease 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 320px;
+    min-width: 320px;
+    border: solid 1px #1e1e1e;
+    background-color: rgba(252, 245, 245, 1);
+    border-radius: 100%;
+  }
+  .dn-mobile {
+    display: none;
+  }
+  .contacts__consultation,
+  .contacts__info {
+    flex-wrap: wrap;
+  }
+  .contacts__info h3 {
+    display: none;
+  }
+  .contacts__social h3 {
+    display: block;
+    margin-top: 40px;
+  }
+  .contacts__adres {
+    max-width: 400px;
+  }
+  .contacts__consultation-right {
+    margin-top: 30px;
+  }
+  .form__input {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .form__input input {
+    margin-top: 20px;
+  }
+  .form-send {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 359px;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .form__body {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .dinb-mobile {
+    display: inline-block;
+  }
+  .burger {
+    display: block;
+  }
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    background-color: rgba(252, 245, 245, 1);
+    width: 100%;
+    z-index: 4;
+  }
+  .main {
+    padding-top: 100px;
+  }
+
+  .nav__header {
+    align-items: center;
+    transition: ease 0.2s;
+    position: fixed;
+    background-color: #fcf5f5;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+  }
+  .social {
+    display: none;
+  }
+  .nav__header.open {
+    left: 0;
+  }
+  .burger {
+    position: fixed;
+    z-index: 2;
+    right: 15px;
+  }
+  .logo {
+    z-index: 3;
+  }
+  .nav__header ul {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  .nav__header ul li {
+    margin-bottom: 20px;
+  }
+  .nav__header ul li a {
+    color: #000000;
+  }
+  .agency__office-left {
+    margin-right: 0px;
+    margin-top: 30px;
+  }
+  .agency__office-left span {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .agency__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .agency__title h2 {
+    margin-bottom: 0;
+    margin-right: 0;
+  }
+
+  .agency__images-right {
+    z-index: -1;
+    margin-bottom: 30px;
+  }
+
+  .agency__subtitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .agency__info p {
+    text-align: center;
+  }
+  .agency__images-left {
+    display: none;
+  }
+  .agency__office a {
+    margin-bottom: 20px;
+  }
+  .agency__office,
+  .agency__office-left,
+  .agency__office-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .agency__office-right,
+  .agency__office-left {
+    flex-direction: row;
+    align-items: center;
+  }
+  .agency__office-right {
+    margin-top: 20px;
+  }
+  .agency__info span {
+    display: none;
+  }
+  .footer__top .logo {
+    order: 1;
+    margin-top: 50px;
+  }
+
+  .footer__top {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav__footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .nav__footer ul li {
+    margin: 10px;
+  }
+  .footer__bottom span {
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .contacts__consultation-elipse {
+    height: 130px;
+    width: 130px;
+  }
+
+  .need__card p {
+    font-size: clamp(0.8125rem, 0.3438rem + 1.5vw, 1.1875rem);
+    line-height: clamp(1.0625rem, 0.8281rem + 0.75vw, 1.25rem);
+  }
+  .need__card span {
+    font-size: 35px;
+    margin-top: -90px;
+  }
+ 
+  .need,
+  .mission,
+  .guarantee,
+  .comments,
+  .services,
+  .request,
+  .history,
+  .accordion,
+  .contacts,
+  .map {
+    margin-top: 40px;
+  }
+  .need__card {
+    margin-top: 20px;
+  }
+  .need__card span {
+    margin-top: 0;
+  }
+  .need__card p {
+    padding-top: 15px;
+  }
+  .agency__office-left {
+    margin-top: 20px;
+    margin-right: auto;
+  }
+  .agency__office-right {
+    margin-top: 20px;
+    margin-right: auto;
+  }
+  .request__cards {
+    width: 360px;
+  }
+  .guarantee__cards {
+    max-width: 240px;
+    width: 100%;
+  }
+  .guarantee__main img {
+    max-width: 60%;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 380px) {
+  .need__card span {
+    font-size: 35px;
+  }
+}
